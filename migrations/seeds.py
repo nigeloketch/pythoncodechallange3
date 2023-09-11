@@ -1,5 +1,5 @@
 # seeds.py
-from models import Restaurant, Customer, Review, session
+from migrations.models import Restaurant, Customer, Review, session
 
 # Create sample data for restaurants, customers, and reviews
 

@@ -1,4 +1,4 @@
-from models import Restaurant, Customer, Review, session
+from migrations.models import Restaurant, Customer, Review, session
 from sqlalchemy.orm.exc import NoResultFound
 
 # Check if this script is being run as the main program
